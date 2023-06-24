@@ -1,2 +1,2 @@
-Step 1. Install the scripts/global_scripts.m into your scripts folder and activate them.
+Step 1. Install the scripts/universal_scripts.m into your scripts folder and activate them.
 Step 2. Install the experimental code of your choosing
