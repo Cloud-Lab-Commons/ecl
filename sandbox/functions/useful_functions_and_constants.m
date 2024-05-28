@@ -104,7 +104,7 @@ plotProtocolWatcher[]:=Module[{financingTeam ,notebooks , allProtocols,allDownlo
 	notebooks = Object[Team,Financing,"Schmidt-Futures"][NotebooksFinanced][Object];
 	
 	allProtocols=Search[Object[Protocol],And[Or[OperationStatus==(OperatorReady|OperatorProcessing|Troubleshooting|OperatorStart|InstrumentProcessing),Status==ShippingMaterials],ParentProtocol==Null,Notebook==Alternatives@@notebooks]];
-	allDownloads=Download[allProtocols,{Object,Notebook[Financers][Name],Notebook[Name],ReadyCheckLog[[-1]][[2]],Status,OperationStatus}];
+	allDownloads=Quiet[Download[allProtocols,{Object,Notebook[Financers][Name],Notebook[Name],ReadyCheckLog[[-1]][[2]],Status,OperationStatus}], {Download::FieldDoesntExist, Download::Part}];
 
 	headers={"Protocol","Financer","Notebook","ReadyCheck","Status","Op Status"};
 	rowColors=Map[
