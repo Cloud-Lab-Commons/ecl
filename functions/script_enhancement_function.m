@@ -17,7 +17,7 @@ When publishing please cite the following:
 
 Author(s): TJ Brunette *Written by Catherine Hofler at Emerald therapeutics 
 E.mail: tjbrunette@gmail.com
-Requested citation: None
+Requested citation: https://doi.org/10.5281/zenodo.13375207
 
 
 (* ::Section:: *)

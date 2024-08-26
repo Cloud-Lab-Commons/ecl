@@ -17,7 +17,7 @@ When publishing please cite the following:
 
 Author(s): Amanda Kohler
 E.mail: amanda@tyralaconsulting.com
-Requested citation: None
+Requested citation: https://doi.org/10.5281/zenodo.13375207
 
 (* ::Section:: *)
 Overview

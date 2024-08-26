@@ -16,7 +16,7 @@ When publishing please cite the following:
 
 Author(s): Dirk Schild & Waseem Vali
 E.mail: waseem@alignbio.org
-Requested citation: None
+Requested citation: https://doi.org/10.5281/zenodo.13375207
 
 (* ::Section:: *)
 Overview
