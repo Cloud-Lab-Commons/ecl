@@ -1,4 +1,4 @@
-(* CreatedFrom Object[EmeraldCloudFile, "id:01G6nvGJG3Am"] on Wed 24 Jul 2024 16:27:46 - please remove this line if you make manual changes to the file. *)
+(* CreatedFrom Object[EmeraldCloudFile, "id:4pO6dMm9453r"] on Mon 26 Aug 2024 11:21:34 - please remove this line if you make manual changes to the file. *)
 (* ::Package:: *)
 
 
@@ -64,6 +64,13 @@ adjustmentSample = 1;
 (* ::Section:: *)
 2) Define quantities for Protein production
 
+(* ::Text:: *)
+Reagent Models :
+PureExpress Solution A - Model[Sample, "PURExpress Solution A"]
+PureExpress Solution B - Model[Sample, "PURExpress Solution B"]
+RNasin Plus Rnase Inhibitor - Model[Sample, "RNasin Plus RNase Inhibitor"]
+
+(* ::Input:: *)
 (*Pure express recommends using 250 ng template DNA per 25 \[Mu]l reaction)
 
 (* ::Text:: *)
